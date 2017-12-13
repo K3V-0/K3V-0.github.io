@@ -32,21 +32,26 @@ main {
   width: 100%;
 }
 
-.footer.mdl-mini-footer {
-  bottom: 0;
+.mdl-mini-footer {
   padding: 0.5rem;
+  bottom: 0;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
-.footer.mdl-mini-footer > ul {
+footer.mdl-mini-footer {
+   bottom: 0;
+   position: fixed;
+ }
+
+footer.mdl-mini-footer > ul {
   margin: auto;
   font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
-  header.mdl-layout_header {
+  header.mdl-layout__header {
   display: flex;
   }
 }
