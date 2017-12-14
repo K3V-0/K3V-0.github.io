@@ -11,12 +11,12 @@ body {
 
 h1 {
   font-weight: bold;
-  color: rgb(255, 255, 255, 0.9);
+  color: hsla(0, 0%, 100%, 0.9);
 }
 
 .slogan {
   font-weight: lighter;
-  color: rgb(255, 255, 255, 0.8);
+  color: hsla(0, 0%, 100%, 0.7);
   font-size: 1.6rem;
 }
 
